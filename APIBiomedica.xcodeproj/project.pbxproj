@@ -38,7 +38,7 @@
 		15D4F9271CD66D2400331D0B = {
 			isa = PBXGroup;
 			children = (
-				15D4F9321CD66D2400331D0B /* Hola Mundo */,
+				15D4F9321CD66D2400331D0B /* APIBiomedica */,
 				15D4F9311CD66D2400331D0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15D4F9321CD66D2400331D0B /* Hola Mundo */ = {
+		15D4F9321CD66D2400331D0B /* APIBiomedica */ = {
 			isa = PBXGroup;
 			children = (
 				15D4F9331CD66D2400331D0B /* AppDelegate.swift */,
@@ -61,6 +61,7 @@
 				15D4F93C1CD66D2400331D0B /* LaunchScreen.storyboard */,
 				15D4F93F1CD66D2400331D0B /* Info.plist */,
 			);
+			name = APIBiomedica;
 			path = "Hola Mundo";
 			sourceTree = "<group>";
 		};
@@ -249,10 +250,9 @@
 		15D4F9431CD66D2400331D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Hola Mundo/Info.plist";
+				INFOPLIST_FILE = APIBiomedica/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paruasprojects.IOSDeveloper.AP-IngBiomedica";
 				PRODUCT_NAME = APIBiomedica;
@@ -263,10 +263,9 @@
 		15D4F9441CD66D2400331D0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "Hola Mundo/Info.plist";
+				INFOPLIST_FILE = APIBiomedica/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paruasprojects.IOSDeveloper.AP-IngBiomedica";
 				PRODUCT_NAME = APIBiomedica;

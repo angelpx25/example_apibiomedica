@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15D4F92F1CD66D2400331D0B"
-               BuildableName = "AP IngBiomedica.app"
+               BuildableName = "APIBiomedica.app"
                BlueprintName = "APIBiomedica"
                ReferencedContainer = "container:APIBiomedica.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15D4F92F1CD66D2400331D0B"
-            BuildableName = "AP IngBiomedica.app"
+            BuildableName = "APIBiomedica.app"
             BlueprintName = "APIBiomedica"
             ReferencedContainer = "container:APIBiomedica.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15D4F92F1CD66D2400331D0B"
-            BuildableName = "AP IngBiomedica.app"
+            BuildableName = "APIBiomedica.app"
             BlueprintName = "APIBiomedica"
             ReferencedContainer = "container:APIBiomedica.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15D4F92F1CD66D2400331D0B"
-            BuildableName = "AP IngBiomedica.app"
+            BuildableName = "APIBiomedica.app"
             BlueprintName = "APIBiomedica"
             ReferencedContainer = "container:APIBiomedica.xcodeproj">
          </BuildableReference>
