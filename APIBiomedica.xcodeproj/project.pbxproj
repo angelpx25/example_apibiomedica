@@ -252,7 +252,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = APIBiomedica/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Hola Mundo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paruasprojects.IOSDeveloper.AP-IngBiomedica";
 				PRODUCT_NAME = APIBiomedica;
@@ -265,7 +265,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = APIBiomedica/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Hola Mundo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.paruasprojects.IOSDeveloper.AP-IngBiomedica";
 				PRODUCT_NAME = APIBiomedica;
