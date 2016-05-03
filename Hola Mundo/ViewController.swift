@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func ChangeMessage(sender: AnyObject) {
-        messageLabel.text = "Hola \(nameTextField.text!)"
+        messageLabel.text = "\(nameTextField.text!)"
         view.endEditing(true)
     }
     //comentay

@@ -14,27 +14,36 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_4670" translatesAutoresizingMaskIntoConstraints="NO" id="n0S-56-m0B">
-                                <rect key="frame" x="71" y="230" width="272" height="275"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright (c) Angel Paruas 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyL-lE-lXx">
-                                <rect key="frame" x="83" y="686" width="248" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AP Ingenieria Biomedica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qw-J7-TxN">
+                                <rect key="frame" x="54.5" y="38" width="211" height="21.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) Angel Paruas 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyL-lE-lXx">
+                                <rect key="frame" x="36.5" y="529" width="247.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AP Ingenieria Biomedica" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qw-J7-TxN">
-                                <rect key="frame" x="20" y="147" width="374" height="67"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="n0S-56-m0B">
+                                <rect key="frame" x="18" y="137.5" width="284" height="293"/>
+                            </imageView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="hyL-lE-lXx" secondAttribute="bottom" constant="18" id="8sM-9S-cJk"/>
+                            <constraint firstItem="9qw-J7-TxN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qp3-bv-5es"/>
+                            <constraint firstItem="9qw-J7-TxN" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="18" id="TdS-BC-ILk"/>
+                            <constraint firstItem="hyL-lE-lXx" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y8T-p9-DkY"/>
+                            <constraint firstItem="n0S-56-m0B" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="clb-2c-FAt"/>
+                            <constraint firstItem="n0S-56-m0B" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="huD-Jq-aAy"/>
+                        </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -42,6 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_4670" width="284" height="293"/>
+        <image name="Logo" width="284" height="293"/>
     </resources>
 </document>
